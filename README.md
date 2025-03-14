@@ -164,19 +164,6 @@ class Main {
 ```
 ["car", "cards", "cart"]
 ```
-
----
-
-### **💡 Final Complexity Analysis**
-| Operation               | Time Complexity | Explanation |
-|-------------------------|----------------|-------------|
-| **Insert Word**         | **O(M)**        | Each character is processed once |
-| **Check Word Exists**   | **O(M)**        | Traverse Trie to check word |
-| **Get All Words**       | **O(N × M)**    | DFS traversal over all nodes |
-| **Get Prefix Words**    | **O(len(prefix) + M)** | Find prefix, then DFS |
-
----
-
 ### **🎯 Summary**
 ✅ **Efficient storage** (Trie avoids redundant prefixes).  
 ✅ **Fast lookup** (`O(M)`, much faster than `O(N)` in brute force search).  
